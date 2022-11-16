@@ -1,0 +1,136 @@
+* {
+    text-decoration: none;
+    /* list-style: none; */
+    font-family: sans-serif;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    /* background-image: url(img/Back.jpg); */
+    background-color: #dded;
+}
+nav {
+    background-color: rgb(37, 139, 37);
+    height: 90px;
+    width: 100%;
+}
+ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-left: 45.5px;
+    transition: all 1.25s;
+}
+ul li a:hover {
+    border-radius: 10px;
+    background: white;
+    color: rgb(37, 139, 37);
+    cursor: pointer;
+}
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar-brand:hover {
+    color: white;
+}
+form {
+    margin-right: 80px;
+}
+.btn {
+    border-color: green;
+    color: green;
+    background-color: white;
+}
+form .form-control {
+    border-color: green;
+}
+#card {
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 900px;
+    position: absolute;
+    color: black;
+    border: none;
+    background: none;
+    font-size: 14px;
+}
+#card h5 {
+    margin-top: -11px;
+    margin-bottom: 10px;
+}
+#card img {
+    width: 300px;
+    height: 418px;
+    border-radius: 5px;
+}
+.card0 {
+    margin: 20px;
+    margin-left: 76%;   
+}
+.card0 img {
+    border-radius: 10px;
+}
+.card0 h5 {
+    color: rgb(1, 1, 1);
+    font-weight: 600;
+}
+#h5 {
+    margin-left: 70px;
+    color: rgb(37, 139, 37);
+    font-size: 24px;
+    font-weight: 700px;
+}
+#p {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#p span {
+    font-weight: 500;
+    font-size: 22px;
+}
+#h55 {
+    margin-top: 6%;
+    margin-left: 10%;
+    color: rgb(37, 139, 37);
+    font-size: 24px;
+    font-weight: 700px;
+}
+.images {
+    margin-top: 20px;
+    margin-left: 15.6%;
+    margin-right: 11%;
+}
+.images img {
+    margin-top: 5px;
+}
+input {
+    color: green;
+    margin-left: 45%;
+}
+#btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 139, 37);
+    margin: 20px;
+    margin-left: 40%;
+    font-weight: 600;
+}
+.card00 {
+    position: absolute;
+    width: 240px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.card00 h6 {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.video iframe{
+    margin-top: 20px;
+    width: 1000px;
+    height: 575px;
+    margin-left: 12%;
+}

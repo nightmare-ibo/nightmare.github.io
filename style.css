@@ -1,0 +1,95 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(img/Back.jpg);
+}
+nav {
+    background-color: rgb(37, 139, 37);
+    height: 90px;
+    width: 100%;
+}
+nav span {
+    border: 5px solid;
+    border-color: white;
+    border-radius: 5px;
+    background: white;
+    color: rgb(37, 139, 37);
+    cursor: pointer;
+}
+ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-left: 45.5px;
+    transition: all 1.25s;
+}
+ul li a:hover {
+    border-radius: 5px;
+    background: white;
+    color: rgb(37, 139, 37);
+    cursor: pointer;
+}
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar-brand:hover {
+    color: white;
+}
+form {
+    margin-right: 80px;
+}
+.btn {
+    border-color: green;
+    color: green;
+    background-color: white;
+}
+form .form-control {
+    border-color: green;
+}
+#carusel {
+    margin-left: 70px;
+}
+.carousel-inner{
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 8%;
+    width: 1000px;
+    height: 510px;
+}
+.carousel-inner img{
+    width: 100%;
+}
+#card {
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 900px;
+    position: absolute;
+    cursor: pointer;
+    color: black;
+}
+#card img {
+    width: 300px;
+    height: 390px;
+}
+.btns button {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 78.5%;
+    width: 230px;
+    font-size: 18px;
+}
+.btns button:hover {
+    background-color: rgb(37, 139, 37);
+    border-color: white;
+    color: white;
+}
+@media(max-width: 800px) {
+    
+}
